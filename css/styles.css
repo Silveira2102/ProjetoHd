@@ -42,3 +42,34 @@ ul, ol {
     background-size: cover;
     background-position: center;
 }
+
+.header-hero {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: var(--spacing-lg);
+
+    h1 {
+        font-size: 38px;
+        color: var(--color-light);
+        
+        span {
+            color: var(--color-orange);
+        }
+    }
+}
+
+.header-menu {
+    display: flex;
+    gap: var(--spacing-lg);
+}
+
+.header-menu a {
+    font-weight: 700;
+    transition: color .7s;
+    
+    &:hover {
+        color: var(--color-orange);
+    }
+}
